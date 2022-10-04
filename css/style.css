@@ -1,0 +1,76 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  body{
+    background-color: green;
+    height:50%;
+  }
+
+  .first , .four{
+    width: 100%;
+    height: 0.2%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+
+  .b{
+    display:flex;
+    align-self: center;
+    
+  }
+  .b1{
+    padding-right: 20px;
+  }
+
+
+
+
+  .second{
+    width:50%;
+    padding-left: 30%;
+    padding-right: 10%;
+    float: left;
+  
+  }
+  .three{
+    width:50%;
+    padding-left:10%;
+    padding-right:30%;
+    float: left;
+  }
+
+  .four{
+    border:100%;
+  }
+  .res{
+    color: red;
+  }
+
+  @media screen and (max-width:600px){
+    .second, .three{
+
+      padding-left: 0%;
+      padding-right: 0%;
+
+      width: 100%;
+
+    }
+  }
+ 
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
